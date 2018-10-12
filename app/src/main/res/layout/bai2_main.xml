@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:onClick="backb2"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bài2"
+            android:textColor="#fff"
+            android:textSize="25dp" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All" />
+
+        <Button
+            android:id="@+id/btndoraemon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doraemon" />
+
+        <Button
+            android:id="@+id/btnnobita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nobita" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnsuka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shizuka" />
+
+        <Button
+            android:id="@+id/btnsuneo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suneo" />
+
+        <Button
+            android:id="@+id/btngoda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goda" />
+    </LinearLayout>
+
+    <ImageView
+
+        android:id="@+id/imgall"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_android_black" />
+
+</LinearLayout>
